@@ -1,0 +1,168 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="6ocQDgxxhNqsujIII7ak">
+    <mxGraphModel dx="1433" dy="852" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#647687;fontColor=#ffffff;strokeColor=#314354;gradientColor=light-dark(#000000,#3A3A45);gradientDirection=east;" value="" vertex="1">
+          <mxGeometry height="120" width="210" x="370" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;PROCESSAMENTO&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;LOGICA DA PORTA&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;- Avaliar autorização&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;- Decidir abrir / manter / fechar&lt;/span&gt;&lt;br style=&quot;font-weight: 700;&quot;&gt;&lt;span style=&quot;font-weight: 700;&quot;&gt;- Verificar obstáculo continuamente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="42.5" width="185" x="382.5" y="318.75" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#f5f5f5, #a9a7a7);strokeColor=#666666;gradientDirection=east;gradientColor=light-dark(#b3b3b3, #f2eeee);" value="" vertex="1">
+          <mxGeometry height="77.5" width="150" x="80" y="211.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#f5f5f5, #a9a7a7);strokeColor=#666666;gradientDirection=east;gradientColor=light-dark(#b3b3b3, #f2eeee);" value="" vertex="1">
+          <mxGeometry height="77.5" width="150" x="80" y="301.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#f5f5f5, #a9a7a7);strokeColor=#666666;gradientDirection=east;gradientColor=light-dark(#b3b3b3, #f2eeee);" value="" vertex="1">
+          <mxGeometry height="77.5" width="150" x="80" y="391.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-10" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-7" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=light-dark(#000000,#33FF33);" target="rXO5Y0Q8Y7Hle9kiL2cR-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="430" />
+              <mxPoint x="290" y="370" />
+            </Array>
+            <mxPoint x="240" y="430" as="sourcePoint" />
+            <mxPoint x="410" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#00FF00);labelBackgroundColor=default;fontSize=7;" value="&lt;font&gt;REALIMENTAÇÃO: Estado atual da porta&lt;/font&gt;" vertex="1">
+          <mxGeometry height="10" width="280" x="160" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=9;" value="ENTRADA&lt;br&gt;Sensor de Presença&lt;br&gt;(detecta aproximação de pessoa)" vertex="1">
+          <mxGeometry height="30" width="150" x="80" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=9;" value="&lt;div&gt;ENTRADA&lt;/div&gt;&lt;div&gt;Sensor de Obstáculo&lt;/div&gt;&lt;div&gt;(barreira infravermelha)&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="105" x="102.5" y="325" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);fontSize=9;" value="&lt;div&gt;ENTRADA&lt;/div&gt;&lt;div&gt;Sensor de Estado da Porta&lt;/div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;(aberta / fechada / em movimento&lt;/span&gt;)" vertex="1">
+          <mxGeometry height="30" width="260" x="25" y="415" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-15" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-12" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.142;entryDx=0;entryDy=0;entryPerimeter=0;" target="rXO5Y0Q8Y7Hle9kiL2cR-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="242.5" />
+            </Array>
+            <mxPoint x="420" y="360" as="sourcePoint" />
+            <mxPoint x="320" y="242.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-16" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-6" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.992;entryY=0.875;entryDx=0;entryDy=0;entryPerimeter=0;" target="rXO5Y0Q8Y7Hle9kiL2cR-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="340" />
+            </Array>
+            <mxPoint x="420" y="360" as="sourcePoint" />
+            <mxPoint x="470" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Presença detectada" vertex="1">
+          <mxGeometry height="21.25" width="150" x="220" y="281" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#fff2cc, #e1ff00);strokeColor=#d6b656;gradientDirection=east;gradientColor=light-dark(#ffd966, #99ad00);" value="" vertex="1">
+          <mxGeometry height="42.5" width="150" x="400" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=9;labelBackgroundColor=none;fontColor=light-dark(#000000,#000000);" value="&lt;div&gt;&lt;b&gt;SAÍDA&lt;/b&gt;&lt;/div&gt;&lt;span&gt;&lt;b&gt;Sinalizar alarme visual / sonoro&lt;/b&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="21.25" width="140" x="405" y="170.63" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-20" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0.5;exitY=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="rXO5Y0Q8Y7Hle9kiL2cR-18" value="Ativar alarme">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="475" y="250" />
+              <mxPoint x="475" y="250" />
+            </Array>
+            <mxPoint x="490" y="340" as="sourcePoint" />
+            <mxPoint x="490" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;gradientDirection=east;gradientColor=#ea6b66;" value="" vertex="1">
+          <mxGeometry height="50" width="220" x="365" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-22" parent="1" style="text;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=light-dark(#000000,#FFFFFF);align=center;fontSize=9;" value="&lt;span style=&quot;font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;PERTURBÇÃO (externa)&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;span style=&quot;font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Obstáculo inesperado, vento forte, pessoa parada na soleira, oscilação de energia&lt;/span&gt;" vertex="1">
+          <mxGeometry height="42.5" width="195" x="377.5" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-23" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;dashed=1;strokeColor=#b85450;fontColor=#b85450;exitX=0.5;exitY=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="rXO5Y0Q8Y7Hle9kiL2cR-1" value="Interferência externa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="516" y="590" as="sourcePoint" />
+            <mxPoint x="460" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#d5e8d4, #80f07a);strokeColor=#82b366;gradientDirection=east;gradientColor=#97d077;" value="" vertex="1">
+          <mxGeometry height="42.5" width="150" x="650" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#f8cecc, #ff0d00);strokeColor=#b85450;gradientDirection=east;gradientColor=#ea6b66;" value="" vertex="1">
+          <mxGeometry height="42.5" width="170" x="650" y="391.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=10;" value="&lt;div&gt;&lt;b&gt;FALHA&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Motor travado ou sobrecarregado&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="42.5" width="185" x="642.5" y="391.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-27" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;dashed=1;strokeColor=light-dark(#33FF33, #00ff00);fontColor=light-dark(#33FF33,#1B1D1E);exitX=0.5;exitY=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="rXO5Y0Q8Y7Hle9kiL2cR-7" value="&lt;span style=&quot;color: rgb(51, 255, 51);&quot;&gt;REALIMENTACAO: Ação resulta em novo estado&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.0011" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="725.06" y="310.06" />
+              <mxPoint x="840" y="310.06" />
+              <mxPoint x="840" y="570.06" />
+              <mxPoint x="155.06" y="570.06" />
+            </Array>
+            <mxPoint x="990" y="610" as="sourcePoint" />
+            <mxPoint x="360" y="743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-28" connectable="0" parent="rXO5Y0Q8Y7Hle9kiL2cR-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" value="&#xa;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;SAIDA&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; box-shadow: none !important;&quot;&gt;&lt;span style=&quot;color: rgb(255, 255, 255); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Motor / Atuador da Porta&lt;/span&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry relative="1" x="-0.8786" y="-5" as="geometry">
+            <mxPoint x="217" y="-58" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-29" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;dashed=1;strokeColor=#b85450;fontColor=#b85450;exitX=0;exitY=0.5;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" target="rXO5Y0Q8Y7Hle9kiL2cR-1" value="Falha detectada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="642.47" y="370.06" />
+              <mxPoint x="620" y="370.06" />
+              <mxPoint x="620" y="340.06" />
+            </Array>
+            <mxPoint x="800" y="499" as="sourcePoint" />
+            <mxPoint x="670" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-30" edge="1" parent="1" source="rXO5Y0Q8Y7Hle9kiL2cR-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;exitX=0.988;exitY=0.109;entryX=0.5;entryY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryDx=0;entryDy=0;" target="rXO5Y0Q8Y7Hle9kiL2cR-24" value="Comandar abrir / fechar">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="293.12" />
+              <mxPoint x="600" y="220.06" />
+              <mxPoint x="725.06" y="220.06" />
+            </Array>
+            <mxPoint x="610" y="295" as="sourcePoint" />
+            <mxPoint x="790" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=light-dark(#000000,#000000);" value="&lt;span style=&quot;&quot;&gt;SAÍDA&lt;br&gt;Motor / Atuador da Porta&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="645" y="256.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-36" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#d5e8d4, #00ff55);strokeColor=#82b366;gradientDirection=east;gradientColor=#97d077;" value="" vertex="1">
+          <mxGeometry height="42.5" width="220" x="890" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 0, 0));&quot;&gt;AMBIENTE&lt;br&gt;Passagem liberada / bloqueada&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="185" x="910" y="256.25" as="geometry" />
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-38" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;fontSize=10;" value="Porta abre / fecha fisicamente">
+          <mxGeometry relative="1" x="-1" y="-40" as="geometry">
+            <mxPoint x="-40" y="-40" as="offset" />
+            <Array as="points">
+              <mxPoint x="770" y="200.06" />
+              <mxPoint x="970" y="200.06" />
+            </Array>
+            <mxPoint x="770" y="240" as="sourcePoint" />
+            <mxPoint x="970" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rXO5Y0Q8Y7Hle9kiL2cR-39" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 4;strokeColor=#666666;fillColor=none;verticalAlign=top;align=left;fontStyle=1;fontSize=13;spacingLeft=12;spacingTop=8;" value="FRONTEIRA DO SISTEMA - PORTA AUTOMATICA DE ACESSO" vertex="1">
+          <mxGeometry height="510" width="810" x="60" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
