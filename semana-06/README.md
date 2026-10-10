@@ -25,8 +25,6 @@ A lógica foi desenvolvida e testada no **PLC Simulator Online** e estruturada s
 ---
 
 ## 3. Equação Booleana do Circuito
-$$\text{MOTOR} = \text{EMG\_OK} \cdot \text{OL\_OK} \cdot \text{STOP\_OK} \cdot (\text{START} + \text{MOTOR})$$
-$$\text{RUN} = \text{MOTOR}$$
 
 > **Regra de Segurança:** Os contatos `EMG_OK`, `OL_OK` e `STOP_OK` estão posicionados em **série antes da derivação em paralelo** (`START` || `MOTOR`), garantindo prioridade absoluta de parada sobre o botão e sobre a retenção de memória (selo).
 
@@ -68,7 +66,3 @@ Os registros gráficos das etapas de teste estão disponíveis no diretório `/c
 ## 7. Link do Projeto no Simulador
 * **Simulador Utilizado:** [PLC Simulator Online](https://plcsimulator.online/)
 * **Link para Execução Direta:** (https://app.plcsimulator.online/sXQUm0Qbb0fPyWOoBLWF)
-
----
-
-## 8. Limites do Modelo e Considerações
