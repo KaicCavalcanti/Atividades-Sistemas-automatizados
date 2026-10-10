@@ -1,0 +1,114 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="atv24" name="Atividade 24 - Semaforo">
+    <mxGraphModel dx="1246" dy="1568" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=18;fontStyle=1;" value="TP05 · Atividade 24 — Semáforo veicular temporizado (GRAFCET)" vertex="1">
+          <mxGeometry height="30" width="700" x="120" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="s0_outer" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=none;" value="" vertex="1">
+          <mxGeometry height="60" width="60" x="300" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#ffffff;" value="E0" vertex="1">
+          <mxGeometry height="48" width="48" x="306" y="106" as="geometry" />
+        </mxCell>
+        <mxCell id="a0_link" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="130" as="sourcePoint" />
+            <mxPoint x="390" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;fillColor=#f8cecc;strokeColor=#b85450;" value="VERMELHO = 1" vertex="1">
+          <mxGeometry height="30" width="180" x="390" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#ffffff;" value="E1" vertex="1">
+          <mxGeometry height="60" width="60" x="300" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="a1_link" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="290" as="sourcePoint" />
+            <mxPoint x="390" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="VERDE = 1" vertex="1">
+          <mxGeometry height="30" width="180" x="390" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;fontSize=14;fillColor=#ffffff;" value="E2" vertex="1">
+          <mxGeometry height="60" width="60" x="300" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="a2_link" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="450" as="sourcePoint" />
+            <mxPoint x="390" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="AMARELO = 1" vertex="1">
+          <mxGeometry height="30" width="180" x="390" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="l01" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="160" as="sourcePoint" />
+            <mxPoint x="330" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312" y="210" as="sourcePoint" />
+            <mxPoint x="348" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t0_txt" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1a73e8;" value="T0: tempo de E0 ≥ 8 s" vertex="1">
+          <mxGeometry height="30" width="220" x="360" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="l12" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="320" as="sourcePoint" />
+            <mxPoint x="330" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312" y="370" as="sourcePoint" />
+            <mxPoint x="348" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t1_txt" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1a73e8;" value="T1: tempo de E1 ≥ 10 s" vertex="1">
+          <mxGeometry height="30" width="220" x="360" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="l20" edge="1" parent="1" style="endArrow=classic;html=1;strokeWidth=2;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="560" />
+              <mxPoint x="200" y="560" />
+              <mxPoint x="200" y="60" />
+              <mxPoint x="330" y="60" />
+            </Array>
+            <mxPoint x="330" y="480" as="sourcePoint" />
+            <mxPoint x="330" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2" edge="1" parent="1" style="endArrow=none;html=1;strokeWidth=4;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="312" y="520" as="sourcePoint" />
+            <mxPoint x="348" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2_txt" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontStyle=1;fontColor=#1a73e8;" value="T2: tempo de E2 ≥ 3 s" vertex="1">
+          <mxGeometry height="30" width="220" x="360" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="kOEzz_T3KuES4pXEcJs3-2" edge="1" parent="1" source="legend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="-90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=top;spacingLeft=10;spacingTop=6;fillColor=#f5f6fa;strokeColor=#cccccc;fontSize=12;" value="&lt;b&gt;Convenção&lt;/b&gt;&lt;br&gt;• Quadrado duplo (E0) = etapa inicial&lt;br&gt;• Quadrado simples = etapa&lt;br&gt;• Retângulo lateral = ação da etapa&lt;br&gt;• Barra horizontal = transição&lt;br&gt;• Texto azul = receptividade (temporizada)&lt;br&gt;• Seta lateral = ciclo fechado E2 → E0&lt;br&gt;&lt;br&gt;&lt;b&gt;Aceitação&lt;/b&gt;&lt;br&gt;• Uma única cor por etapa&lt;br&gt;• Ciclo fechado&lt;br&gt;• Tempos identificados (8 s / 10 s / 3 s)&lt;br&gt;• Etapa inicial inequívoca" vertex="1">
+          <mxGeometry height="250" width="300" x="640" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kOEzz_T3KuES4pXEcJs3-1" edge="1" parent="1" source="legend" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;innerLoopWaypoints=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="legend">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
