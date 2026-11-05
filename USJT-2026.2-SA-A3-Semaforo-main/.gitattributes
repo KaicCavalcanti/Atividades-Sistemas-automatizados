@@ -1,0 +1,12 @@
+# Arquivos com SHA-256 registrado em projeto/testes/resultados.json: LF em qualquer plataforma.
+*.csv text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+# Documentos e imagens: binários.
+*.docx binary
+*.pptx binary
+*.pdf binary
+*.png binary
+# Os próprios arquivos de configuração também em LF (conferência byte a byte depois do clone).
+.gitattributes text eol=lf
+.gitignore text eol=lf

@@ -1,0 +1,6 @@
+# Arquivos temporários do Word e do PowerPoint enquanto um documento está aberto
+~$*
+# Sistema
+Thumbs.db
+desktop.ini
+.DS_Store
